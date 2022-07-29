@@ -1,24 +1,13 @@
-# hardhat_lease
+# Sample Hardhat Project
 
-## Project setup
-```
-yarn install
-```
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Try running some of the following tasks:
 
-### Compiles and minifies for production
+```shell
+npx hardhat help
+npx hardhat test
+GAS_REPORT=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
